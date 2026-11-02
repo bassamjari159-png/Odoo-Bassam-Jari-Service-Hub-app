@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_repair_center_order_user,repair.center.order user,model_repair_center_order,base.group_user,1,1,1,1
+access_repair_center_order_line_user,repair.center.order.line user,model_repair_center_order_line,base.group_user,1,1,1,1
+access_repair_center_device_user,repair.center.device user,model_repair_center_device,base.group_user,1,1,1,1
+access_repair_center_branch_user,repair.center.branch user,model_repair_center_branch,base.group_user,1,1,1,1
+access_repair_center_service_user,repair.center.service user,model_repair_center_service,base.group_user,1,1,1,1
+access_repair_center_dashboard_user,repair.center.dashboard user,model_repair_center_dashboard,base.group_user,1,0,0,0

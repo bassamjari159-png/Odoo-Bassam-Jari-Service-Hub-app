@@ -1,0 +1,126 @@
+# Translation of BASSAM JARI Customer Portal.
+#. module: repair_center_portal
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: repair_center_portal
+msgid "Repair Orders"
+msgstr "طلبات الصيانة"
+
+#. module: repair_center_portal
+msgid "My Repair Orders"
+msgstr "طلبات الصيانة الخاصة بي"
+
+#. module: repair_center_portal
+msgid "Track the diagnosis and repair status of your devices"
+msgstr "تابع تشخيص أجهزةك وحالة إصلاحها"
+
+#. module: repair_center_portal
+msgid "Repair Order Details"
+msgstr "تفاصيل طلب الصيانة"
+
+#. module: repair_center_portal
+msgid "Back to Repair Orders"
+msgstr "العودة إلى طلبات الصيانة"
+
+#. module: repair_center_portal
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: repair_center_portal
+msgid "Device"
+msgstr "الجهاز"
+
+#. module: repair_center_portal
+msgid "Received On"
+msgstr "تاريخ الاستلام"
+
+#. module: repair_center_portal
+msgid "Status"
+msgstr "الحالة"
+
+#. module: repair_center_portal
+msgid "Serial Number"
+msgstr "الرقم التسلسلي"
+
+#. module: repair_center_portal
+msgid "Technician"
+msgstr "الفني"
+
+#. module: repair_center_portal
+msgid "Reported Issue"
+msgstr "العطل المبلغ عنه"
+
+#. module: repair_center_portal
+msgid "There are currently no repair orders for your account."
+msgstr "لا توجد طلبات صيانة في حسابك حاليًا."
+
+#. module: repair_center_portal
+msgid "Expected Completion"
+msgstr "موعد الإنجاز المتوقع"
+
+#. module: repair_center_portal
+msgid "Amount Due"
+msgstr "المبلغ المتبقي"
+
+#. module: repair_center_portal
+msgid "Repair Progress"
+msgstr "تقدم عملية الصيانة"
+
+#. module: repair_center_portal
+msgid "Device and Schedule"
+msgstr "الجهاز والموعد"
+
+#. module: repair_center_portal
+msgid "Branch"
+msgstr "الفرع"
+
+#. module: repair_center_portal
+msgid "Services and Parts"
+msgstr "الخدمات وقطع الغيار"
+
+#. module: repair_center_portal
+msgid "Description"
+msgstr "الوصف"
+
+#. module: repair_center_portal
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: repair_center_portal
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: repair_center_portal
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#. module: repair_center_portal
+msgid "Payment Summary"
+msgstr "ملخص الدفع"
+
+#. module: repair_center_portal
+msgid "Quotation Total"
+msgstr "إجمالي عرض السعر"
+
+#. module: repair_center_portal
+msgid "Amount Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: repair_center_portal
+msgid "Warranty"
+msgstr "الضمان"
+
+#. module: repair_center_portal
+msgid "Warranty Days:"
+msgstr "أيام الضمان:"
+
+#. module: repair_center_portal
+msgid "Warranty Expiry:"
+msgstr "انتهاء الضمان:"
+

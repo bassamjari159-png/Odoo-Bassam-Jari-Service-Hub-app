@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="service_diagnosis" model="repair.center.service">
+        <field name="name">Professional Diagnosis</field>
+        <field name="code">DIAG</field>
+        <field name="service_type">diagnosis</field>
+        <field name="list_price">10.0</field>
+        <field name="standard_cost">3.0</field>
+        <field name="expected_hours">0.5</field>
+        <field name="warranty_days">0</field>
+        <field name="company_id" ref="base.main_company"/>
+    </record>
+    <record id="service_general_repair" model="repair.center.service">
+        <field name="name">General Device Repair</field>
+        <field name="code">REPAIR</field>
+        <field name="service_type">repair</field>
+        <field name="list_price">35.0</field>
+        <field name="standard_cost">12.0</field>
+        <field name="expected_hours">2.0</field>
+        <field name="warranty_days">30</field>
+        <field name="company_id" ref="base.main_company"/>
+    </record>
+    <record id="service_software" model="repair.center.service">
+        <field name="name">Software Installation and Setup</field>
+        <field name="code">SOFTWARE</field>
+        <field name="service_type">installation</field>
+        <field name="list_price">20.0</field>
+        <field name="standard_cost">5.0</field>
+        <field name="expected_hours">1.0</field>
+        <field name="warranty_days">14</field>
+        <field name="company_id" ref="base.main_company"/>
+    </record>
+    <record id="service_preventive_maintenance" model="repair.center.service">
+        <field name="name">Preventive Maintenance</field>
+        <field name="code">MAINT</field>
+        <field name="service_type">maintenance</field>
+        <field name="list_price">25.0</field>
+        <field name="standard_cost">8.0</field>
+        <field name="expected_hours">1.5</field>
+        <field name="warranty_days">30</field>
+        <field name="company_id" ref="base.main_company"/>
+    </record>
+</odoo>

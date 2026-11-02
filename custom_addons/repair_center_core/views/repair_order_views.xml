@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_repair_center_order_list" model="ir.ui.view">
+        <field name="name">repair.center.order.list</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <list
+                string="Repair Orders"
+                decoration-info="state == 'diagnosis'"
+                decoration-warning="state == 'in_progress'"
+                decoration-success="state == 'done'"
+                decoration-muted="state in ('delivered', 'cancelled')"
+                multi_edit="1"
+            >
+                <field name="priority" widget="priority" optional="show"/>
+                <field name="name"/>
+                <field name="customer_id"/>
+                <field name="device_name"/>
+                <field name="device_serial" optional="hide"/>
+                <field name="branch_id" optional="show"/>
+                <field name="technician_id" optional="show"/>
+                <field name="date_received" optional="show"/>
+                <field name="estimated_completion" optional="hide"/>
+                <field name="amount_total" widget="monetary" optional="show"/>
+                <field name="amount_due" widget="monetary" optional="hide"/>
+                <field name="currency_id" optional="show"/>
+                <field name="state" widget="badge"/>
+                <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_repair_center_order_kanban" model="ir.ui.view">
+        <field name="name">repair.center.order.kanban</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <kanban default_group_by="state" class="o_kanban_small_column" quick_create="0">
+                <field name="name"/>
+                <field name="customer_id"/>
+                <field name="device_name"/>
+                <field name="technician_id"/>
+                <field name="priority"/>
+                <field name="amount_total"/>
+                <field name="currency_id"/>
+                <field name="estimated_completion"/>
+                <templates>
+                    <t t-name="card">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <strong class="fs-5"><field name="name"/></strong>
+                            <field name="priority" widget="priority"/>
+                        </div>
+                        <div class="mb-2">
+                            <i class="fa fa-user me-1" title="Customer"/>
+                            <field name="customer_id"/>
+                        </div>
+                        <div class="mb-2">
+                            <i class="fa fa-mobile me-1" title="Device"/>
+                            <field name="device_name"/>
+                        </div>
+                        <div t-if="record.technician_id.value" class="text-muted mb-2">
+                            <i class="fa fa-wrench me-1" title="Technician"/>
+                            <field name="technician_id"/>
+                        </div>
+                        <div class="d-flex justify-content-between border-top pt-2 mt-2">
+                            <span class="fw-bold"><field name="amount_total" widget="monetary"/></span>
+                            <span t-if="record.estimated_completion.value" class="text-muted">
+                                <field name="estimated_completion" widget="date"/>
+                            </span>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+    <record id="view_repair_center_order_form" model="ir.ui.view">
+        <field name="name">repair.center.order.form</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <form string="Repair Order">
+                <header>
+                    <button name="action_start_diagnosis" type="object" string="Start Diagnosis" class="btn-primary" invisible="state != 'new'"/>
+                    <button name="action_approve" type="object" string="Approve Quotation" class="btn-primary" invisible="state != 'diagnosis'"/>
+                    <button name="action_start_repair" type="object" string="Start Repair" class="btn-primary" invisible="state != 'approved'"/>
+                    <button name="action_mark_done" type="object" string="Mark Ready" class="btn-primary" invisible="state != 'in_progress'"/>
+                    <button name="action_deliver" type="object" string="Deliver to Customer" class="btn-primary" invisible="state != 'done'"/>
+                    <button name="action_cancel" type="object" string="Cancel" invisible="state in ('delivered', 'cancelled')" confirm="Cancel this repair order?"/>
+                    <button name="action_reset_to_new" type="object" string="Reset to New" invisible="state != 'cancelled'"/>
+                    <field name="state" widget="statusbar" statusbar_visible="new,diagnosis,approved,in_progress,done,delivered"/>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name"/></h1>
+                    </div>
+
+                    <group>
+                        <group string="Customer and Device">
+                            <field name="customer_id"/>
+                            <field name="customer_phone" widget="phone"/>
+                            <field name="customer_email" widget="email"/>
+                            <field name="device_id" context="{'default_customer_id': customer_id}"/>
+                            <field name="device_name"/>
+                            <field name="device_serial"/>
+                        </group>
+                        <group string="Assignment and Timing">
+                            <field name="branch_id" required="1"/>
+                            <field name="technician_id"/>
+                            <field name="date_received"/>
+                            <field name="estimated_completion"/>
+                            <field name="currency_id" options="{'no_create': True, 'no_open': True}" domain="[('name', 'in', ['SYP', 'USD'])]"/>
+                            <field name="priority" widget="priority"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Reception" name="reception">
+                            <group>
+                                <field name="issue_description" placeholder="Describe the problem exactly as reported by the customer..."/>
+                                <field name="accessories" placeholder="Charger, case, bag, SIM card..."/>
+                                <field name="device_condition" placeholder="Scratches, broken glass, missing screws..."/>
+                            </group>
+                        </page>
+
+                        <page string="Diagnosis and Resolution" name="diagnosis">
+                            <group>
+                                <field name="diagnosis" placeholder="Technical findings and test results..."/>
+                                <field name="resolution" placeholder="Work performed and final test results..."/>
+                            </group>
+                        </page>
+
+                        <page string="Services and Parts" name="services_parts">
+                            <field name="line_ids" nolabel="1">
+                                <list editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="line_type"/>
+                                    <field name="service_id" optional="show" domain="[('currency_id', '=', parent.currency_id)]"/>
+                                    <field name="name"/>
+                                    <field name="quantity"/>
+                                    <field name="unit_price"/>
+                                    <field name="discount"/>
+                                    <field name="price_subtotal" widget="monetary"/>
+                                    <field name="currency_id" column_invisible="True"/>
+                                </list>
+                            </field>
+                            <group class="oe_subtotal_footer oe_right">
+                                <field name="amount_total" widget="monetary"/>
+                                <field name="amount_paid" widget="monetary"/>
+                                <field name="amount_due" widget="monetary"/>
+                            </group>
+                        </page>
+
+                        <page string="Warranty and Delivery" name="warranty">
+                            <group>
+                                <group>
+                                    <field name="date_completed"/>
+                                    <field name="date_delivered"/>
+                                </group>
+                                <group>
+                                    <field name="warranty_days"/>
+                                    <field name="warranty_expiry"/>
+                                </group>
+                            </group>
+                        </page>
+
+                        <page string="Internal Notes" name="notes">
+                            <field name="notes" placeholder="Private notes visible only to company staff..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_repair_center_order_search" model="ir.ui.view">
+        <field name="name">repair.center.order.search</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <search string="Repair Orders">
+                <field name="name"/>
+                <field name="customer_id"/>
+                <field name="device_name"/>
+                <field name="device_serial"/>
+                <field name="technician_id"/>
+                <field name="branch_id"/>
+                <separator/>
+                <filter name="new" string="New" domain="[('state', '=', 'new')]"/>
+                <filter name="active" string="Active" domain="[('state', 'in', ('diagnosis', 'approved', 'in_progress'))]"/>
+                <filter name="ready" string="Ready" domain="[('state', '=', 'done')]"/>
+                <filter name="delivered" string="Delivered" domain="[('state', '=', 'delivered')]"/>
+                <filter name="unpaid" string="Has Balance" domain="[('amount_due', '&gt;', 0)]"/>
+                <filter name="my_orders" string="My Orders" domain="[('technician_id', '=', uid)]"/>
+                <group>
+                    <filter name="group_customer" string="Customer" context="{'group_by': 'customer_id'}"/>
+                    <filter name="group_technician" string="Technician" context="{'group_by': 'technician_id'}"/>
+                    <filter name="group_branch" string="Branch" context="{'group_by': 'branch_id'}"/>
+                    <filter name="group_state" string="Status" context="{'group_by': 'state'}"/>
+                    <filter name="group_month" string="Received Month" context="{'group_by': 'date_received:month'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <record id="view_repair_center_order_graph" model="ir.ui.view">
+        <field name="name">repair.center.order.graph</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <graph string="Repair Performance" type="bar">
+                <field name="state"/>
+                <field name="amount_total" type="measure"/>
+            </graph>
+        </field>
+    </record>
+
+    <record id="view_repair_center_order_pivot" model="ir.ui.view">
+        <field name="name">repair.center.order.pivot</field>
+        <field name="model">repair.center.order</field>
+        <field name="arch" type="xml">
+            <pivot string="Repair Analysis">
+                <field name="branch_id" type="row"/>
+                <field name="state" type="col"/>
+                <field name="amount_total" type="measure"/>
+                <field name="amount_due" type="measure"/>
+            </pivot>
+        </field>
+    </record>
+
+    <record id="action_repair_center_order" model="ir.actions.act_window">
+        <field name="name">Repair Orders</field>
+        <field name="res_model">repair.center.order</field>
+        <field name="view_mode">list,kanban,form,graph,pivot</field>
+        <field name="search_view_id" ref="view_repair_center_order_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">Create your first professional repair order</p>
+            <p>Track the device, quotation, technician, repair progress, payment, warranty, and customer delivery.</p>
+        </field>
+    </record>
+</odoo>

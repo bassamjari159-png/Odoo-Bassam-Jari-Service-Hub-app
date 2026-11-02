@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="base.main_company" model="res.company">
+        <field name="name">BASSAM JARI Service Hub</field>
+        <field name="repair_brand_name">BASSAM JARI Service Hub</field>
+        <field name="repair_owner_name">Engineer BASSAM JARI</field>
+        <field name="repair_tagline">Smart service. Trusted results.</field>
+        <field name="repair_support_email">support@bassamjari.local</field>
+    </record>
+</odoo>

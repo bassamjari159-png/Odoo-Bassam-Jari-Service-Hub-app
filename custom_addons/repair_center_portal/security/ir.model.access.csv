@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_repair_center_order_portal,repair.center.order portal,repair_center_core.model_repair_center_order,base.group_portal,1,0,0,0
+access_repair_center_order_line_portal,repair.center.order.line portal,repair_center_core.model_repair_center_order_line,base.group_portal,1,0,0,0
+access_repair_center_branch_portal,repair.center.branch portal,repair_center_core.model_repair_center_branch,base.group_portal,1,0,0,0

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_demo_customer" model="res.partner">
+        <field name="name">Demo Customer</field>
+        <field name="email">customer@example.com</field>
+        <field name="phone">+1 555 0100</field>
+    </record>
+
+    <record id="repair_order_demo_laptop" model="repair.center.order">
+        <field name="customer_id" ref="partner_demo_customer"/>
+        <field name="device_name">Laptop</field>
+        <field name="device_serial">LAP-DEMO-001</field>
+        <field name="issue_description">The device does not power on.</field>
+        <field name="priority">2</field>
+    </record>
+</odoo>

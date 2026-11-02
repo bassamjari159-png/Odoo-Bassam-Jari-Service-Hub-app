@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="menu_repair_center_root"
+        name="BASSAM JARI Service Hub"
+        action="action_repair_center_dashboard"
+        web_icon="repair_center_core,static/description/icon.png"
+        sequence="10"
+    />
+
+    <menuitem
+        id="menu_repair_center_dashboard"
+        name="Dashboard"
+        parent="menu_repair_center_root"
+        action="action_repair_center_dashboard"
+        sequence="1"
+    />
+
+    <menuitem
+        id="menu_repair_center_operations"
+        name="Operations"
+        parent="menu_repair_center_root"
+        sequence="10"
+    />
+    <menuitem
+        id="menu_repair_center_orders"
+        name="Repair Orders"
+        parent="menu_repair_center_operations"
+        action="action_repair_center_order"
+        sequence="10"
+    />
+    <menuitem
+        id="menu_repair_center_devices"
+        name="Customer Devices"
+        parent="menu_repair_center_operations"
+        action="action_repair_center_device"
+        sequence="20"
+    />
+    <menuitem
+        id="menu_repair_center_customers"
+        name="Customers"
+        parent="menu_repair_center_operations"
+        action="base.action_partner_form"
+        sequence="30"
+    />
+
+    <menuitem
+        id="menu_repair_center_catalog"
+        name="Catalog"
+        parent="menu_repair_center_root"
+        sequence="20"
+    />
+    <menuitem
+        id="menu_repair_center_services"
+        name="Services and Parts"
+        parent="menu_repair_center_catalog"
+        action="action_repair_center_service"
+        sequence="10"
+    />
+
+    <menuitem
+        id="menu_repair_center_configuration"
+        name="Configuration"
+        parent="menu_repair_center_root"
+        sequence="90"
+    />
+    <menuitem
+        id="menu_repair_center_branches"
+        name="Branches"
+        parent="menu_repair_center_configuration"
+        action="action_repair_center_branch"
+        sequence="10"
+    />
+    <menuitem
+        id="menu_repair_center_company"
+        name="Company Profile"
+        parent="menu_repair_center_configuration"
+        action="base.action_res_company_form"
+        sequence="20"
+        groups="base.group_system"
+    />
+</odoo>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="repair_order_company_rule" model="ir.rule">
+        <field name="name">Repair orders: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_order"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="repair_order_line_company_rule" model="ir.rule">
+        <field name="name">Repair lines: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_order_line"/>
+        <field name="domain_force">[('order_id.company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="repair_device_company_rule" model="ir.rule">
+        <field name="name">Customer devices: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_device"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="repair_branch_company_rule" model="ir.rule">
+        <field name="name">Service branches: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_branch"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="repair_service_company_rule" model="ir.rule">
+        <field name="name">Service catalog: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_service"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+
+    <record id="repair_dashboard_company_rule" model="ir.rule">
+        <field name="name">Service dashboard: allowed companies</field>
+        <field name="model_id" ref="model_repair_center_dashboard"/>
+        <field name="domain_force">[('company_id', 'in', company_ids)]</field>
+    </record>
+</odoo>

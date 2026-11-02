@@ -1,0 +1,1239 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* repair_center_core
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0-20261015\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-02 18:28+0000\n"
+"PO-Revision-Date: 2026-11-02 18:28+0000\n"
+"Last-Translator: Engineer BASSAM JARI\n"
+"Language-Team: BASSAM JARI Service Hub\n"
+"Language: ar_SY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_kanban
+msgid "<i class=\"fa fa-mobile me-1\" title=\"Device\"/>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_kanban
+msgid "<i class=\"fa fa-user me-1\" title=\"Customer\"/>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_kanban
+msgid "<i class=\"fa fa-wrench me-1\" title=\"Technician\"/>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "<span class=\"text-muted\">Active Repairs</span>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "<span class=\"text-muted\">All Repair Orders</span>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "<span class=\"text-muted\">Delivered</span>"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "<span class=\"text-muted\">Ready for Delivery</span>"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_needaction
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__active
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__active
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__active
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Active"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__active_orders
+msgid "Active Orders"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_ids
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_exception_decoration
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_state
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_type_icon
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__address
+msgid "Address"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__amount_due
+msgid "Amount Due"
+msgstr "المبلغ المتبقي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__amount_paid
+msgid "Amount Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Approve Quotation"
+msgstr "الموافقة على عرض السعر"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__approved
+msgid "Approved"
+msgstr "تمت الموافقة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_search
+msgid "Archived"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Assignment and Timing"
+msgstr "التعيين والمواعيد"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_attachment_count
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_root
+msgid "BASSAM JARI Service Hub"
+msgstr "مركز خدمات BASSAM JARI"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__branch_id
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Branch"
+msgstr "الفرع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__code
+msgid "Branch Code"
+msgstr "رمز الفرع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__manager_id
+msgid "Branch Manager"
+msgstr "مدير الفرع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__name
+msgid "Branch Name"
+msgstr "اسم الفرع"
+
+#. module: repair_center_core
+#: model:ir.actions.act_window,name:repair_center_core.action_repair_center_branch
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_branches
+msgid "Branches"
+msgstr "الفروع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__brand
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_search
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_company_form_repair_branding
+msgid "Brand Identity"
+msgstr "الهوية التجارية"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Cancel this repair order?"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__cancelled
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_catalog
+msgid "Catalog"
+msgstr "الكتالوج"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__service_id
+msgid "Catalog Item"
+msgstr "بند الكتالوج"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Charger, case, bag, SIM card..."
+msgstr ""
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Choose a catalog item priced in the same currency as the repair order."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__color
+msgid "Color"
+msgstr "اللون"
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_res_company
+msgid "Companies"
+msgstr "الشركات"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__company_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__company_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__company_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__company_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__company_id
+msgid "Company"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.actions.act_window,name:repair_center_core.action_repair_center_dashboard
+msgid "Company Dashboard"
+msgstr "لوحة قيادة الشركة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "Company Intelligence"
+msgstr "مؤشرات الشركة"
+
+#. module: repair_center_core
+#: model:repair.center.dashboard,name:repair_center_core.dashboard_main
+msgid "Company Overview"
+msgstr "نظرة عامة على الشركة"
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_company
+msgid "Company Profile"
+msgstr "ملف الشركة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__date_completed
+msgid "Completed On"
+msgstr "تاريخ الإنجاز"
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_configuration
+msgid "Configuration"
+msgstr "الإعدادات"
+
+#. module: repair_center_core
+#: model_terms:ir.actions.act_window,help:repair_center_core.action_repair_center_order
+msgid "Create your first professional repair order"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__create_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__create_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__create_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__create_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__create_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__create_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__create_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__create_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__create_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__create_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__currency_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__currency_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__currency_id
+msgid "Currency"
+msgstr "العملة"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Currency Changed"
+msgstr "تم تغيير العملة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__customer_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__customer_id
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_search
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Customer"
+msgstr "العميل"
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_repair_center_device
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_form
+msgid "Customer Device"
+msgstr "جهاز العميل"
+
+#. module: repair_center_core
+#: model:ir.actions.act_window,name:repair_center_core.action_repair_center_device
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_devices
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_list
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_search
+msgid "Customer Devices"
+msgstr "أجهزة العملاء"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__customer_email
+msgid "Customer Email"
+msgstr "بريد العميل"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__customer_phone
+msgid "Customer Phone"
+msgstr "هاتف العميل"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_company_form_repair_branding
+msgid "Customer Support"
+msgstr "دعم العملاء"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Customer and Device"
+msgstr "العميل والجهاز"
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_customers
+msgid "Customers"
+msgstr "العملاء"
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_dashboard
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Deliver to Customer"
+msgstr "تسليم إلى العميل"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__delivered
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Delivered"
+msgstr "تم التسليم"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__date_delivered
+msgid "Delivered On"
+msgstr "تاريخ التسليم"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__delivered_orders
+msgid "Delivered Orders"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Describe the problem exactly as reported by the customer..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__description
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_service_form
+msgid "Description"
+msgstr "الوصف"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__desktop
+msgid "Desktop"
+msgstr "حاسوب مكتبي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__device_name
+msgid "Device"
+msgstr "الجهاز"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__device_condition
+msgid "Device Condition at Reception"
+msgstr "حالة الجهاز عند الاستلام"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__name
+msgid "Device Name"
+msgstr "اسم الجهاز"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__notes
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_form
+msgid "Device Notes"
+msgstr "ملاحظات الجهاز"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__device_type
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_search
+msgid "Device Type"
+msgstr "نوع الجهاز"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_form
+msgid "Device history, passwords excluded, and special observations..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__diagnosis
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__diagnosis
+msgid "Diagnosis"
+msgstr "قيد التشخيص"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Diagnosis and Resolution"
+msgstr "التشخيص والحل"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Different Currency"
+msgstr "عملة مختلفة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__discount
+msgid "Discount %"
+msgstr "الخصم %"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Discount must be between 0 and 100."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__display_name
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__display_name
+msgid "Display Name"
+msgstr "اسم العرض"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__email
+msgid "Email"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__estimated_completion
+msgid "Expected Completion"
+msgstr "موعد الإنجاز المتوقع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__expected_hours
+msgid "Expected Hours"
+msgstr "الساعات المتوقعة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_follower_ids
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_partner_ids
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__activity_type_icon
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__owner_name
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__repair_owner_name
+msgid "Founder / General Manager"
+msgstr "المؤسس / المدير العام"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_branch_form
+msgid "Full branch address..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:repair.center.service,name:repair_center_core.service_general_repair
+msgid "General Device Repair"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Has Balance"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__has_message
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__priority__2
+msgid "High"
+msgstr "مرتفع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__id
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__imei
+msgid "IMEI"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_exception_icon
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__activity_exception_icon
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__message_needaction
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__message_has_error
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__in_progress
+msgid "In Progress"
+msgstr "قيد الإصلاح"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__installation
+msgid "Installation"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__standard_cost
+msgid "Internal Cost"
+msgstr "التكلفة الداخلية"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__notes
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Internal Notes"
+msgstr "ملاحظات داخلية"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_is_follower
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__laptop
+msgid "Laptop"
+msgstr "حاسوب محمول"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__write_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__write_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__write_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__write_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__write_uid
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__write_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__write_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__write_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__write_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__write_date
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__line_type
+msgid "Line Type"
+msgstr "نوع البند"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_branch_form
+msgid "Location"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__priority__1
+msgid "Low"
+msgstr "منخفض"
+
+#. module: repair_center_core
+#: model:repair.center.branch,name:repair_center_core.branch_main
+msgid "Main Branch"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__maintenance
+msgid "Maintenance"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Mark Ready"
+msgstr "تعيين كجاهز"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_has_error
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_ids
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__model
+msgid "Model"
+msgstr "الطراز"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__my_activity_date_deadline
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "My Orders"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__name
+msgid "Name"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__network
+msgid "Network Device"
+msgstr "جهاز شبكة"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__new
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "New"
+msgstr "جديد"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_date_deadline
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_summary
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_type_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__priority__0
+msgid "Normal"
+msgstr "عادي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_needaction_counter
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__message_has_error_counter
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__message_needaction_counter
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__message_has_error_counter
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_operations
+msgid "Operations"
+msgstr "العمليات"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__order_id
+msgid "Order"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__other
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__other
+msgid "Other"
+msgstr "أخرى"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__outstanding_amount_syp
+msgid "Outstanding in Syrian Pounds"
+msgstr "المبالغ المتبقية بالليرة السورية"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__outstanding_amount_usd
+msgid "Outstanding in US Dollars"
+msgstr "المبالغ المتبقية بالدولار الأمريكي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__phone
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__phone
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: repair_center_core
+#: model:repair.center.service,name:repair_center_core.service_preventive_maintenance
+msgid "Preventive Maintenance"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__printer
+msgid "Printer"
+msgstr "طابعة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__priority
+msgid "Priority"
+msgstr "الأولوية"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Private notes visible only to company staff..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:repair.center.service,name:repair_center_core.service_diagnosis
+msgid "Professional Diagnosis"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__purchase_date
+msgid "Purchase Date"
+msgstr "تاريخ الشراء"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__quantity
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Quantity must be greater than zero."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__amount_total
+msgid "Quotation Total"
+msgstr "إجمالي عرض السعر"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Ready"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__ready_orders
+msgid "Ready Orders"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__state__done
+msgid "Ready for Delivery"
+msgstr "جاهز للتسليم"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__accessories
+msgid "Received Accessories"
+msgstr "الملحقات المستلمة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Received Month"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__date_received
+msgid "Received On"
+msgstr "تاريخ الاستلام"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Reception"
+msgstr "الاستقبال"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__name
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__device_id
+msgid "Registered Device"
+msgstr "الجهاز المسجل"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__repair
+msgid "Repair"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_pivot
+msgid "Repair Analysis"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__repair_count
+msgid "Repair Count"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_repair_center_order
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Repair Order"
+msgstr "طلب صيانة"
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_repair_center_order_line
+msgid "Repair Order Service or Part"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.actions.act_window,name:repair_center_core.action_repair_center_order
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_orders
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_list
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Repair Orders"
+msgstr "طلبات الصيانة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_graph
+msgid "Repair Performance"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__resolution
+msgid "Repair Resolution"
+msgstr "إجراء الإصلاح"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_form
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_list
+msgid "Repairs"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__issue_description
+msgid "Reported Issue"
+msgstr "العطل المبلغ عنه"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Reset to New"
+msgstr "إعادة إلى جديد"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__activity_user_id
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__total_revenue_syp
+msgid "Revenue in Syrian Pounds"
+msgstr "الإيرادات بالليرة السورية"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__total_revenue_usd
+msgid "Revenue in US Dollars"
+msgstr "الإيرادات بالدولار الأمريكي"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid ""
+"Review the unit prices because existing lines keep their numeric values when"
+" the currency changes."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__list_price
+msgid "Sales Price"
+msgstr "سعر البيع"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Scratches, broken glass, missing screws..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_branch__sequence
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__sequence
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__sequence
+msgid "Sequence"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_device__serial_number
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__device_serial
+msgid "Serial Number"
+msgstr "الرقم التسلسلي"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order_line__line_type__service
+msgid "Service"
+msgstr "خدمة"
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_repair_center_branch
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_branch_form
+msgid "Service Branch"
+msgstr "فرع الخدمة"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_branch_list
+msgid "Service Branches"
+msgstr "فروع الخدمة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__brand_name
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__repair_brand_name
+msgid "Service Brand"
+msgstr "العلامة التجارية للخدمة"
+
+#. module: repair_center_core
+#: model:ir.actions.act_window,name:repair_center_core.action_repair_center_service
+#: model:ir.model,name:repair_center_core.model_repair_center_service
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_service_list
+msgid "Service Catalog"
+msgstr "كتالوج الخدمات"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_service_form
+msgid "Service Catalog Item"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__code
+msgid "Service Code"
+msgstr "رمز الخدمة"
+
+#. module: repair_center_core
+#: model:ir.model,name:repair_center_core.model_repair_center_dashboard
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid "Service Company Dashboard"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_company_form_repair_branding
+msgid "Service Hub Identity"
+msgstr "هوية مركز الخدمة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__name
+msgid "Service Name"
+msgstr "اسم الخدمة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__tagline
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__repair_tagline
+msgid "Service Tagline"
+msgstr "الشعار التعريفي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__line_ids
+#: model:ir.ui.menu,name:repair_center_core.menu_repair_center_services
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Services and Parts"
+msgstr "الخدمات وقطع الغيار"
+
+#. module: repair_center_core
+#: model:repair.center.service,name:repair_center_core.service_software
+msgid "Software Installation and Setup"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order_line__line_type__part
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_service__service_type__part
+msgid "Spare Part"
+msgstr "قطعة غيار"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Start Diagnosis"
+msgstr "بدء التشخيص"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Start Repair"
+msgstr "بدء الإصلاح"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__state
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Status"
+msgstr "الحالة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__activity_state
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__price_subtotal
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__repair_support_email
+msgid "Support Email"
+msgstr "بريد الدعم"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_res_company__repair_support_phone
+msgid "Support Phone"
+msgstr "هاتف الدعم"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__syp_currency_id
+msgid "Syp Currency"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_device__device_type__tablet
+msgid "Tablet"
+msgstr "جهاز لوحي"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__diagnosis
+msgid "Technical Diagnosis"
+msgstr "التشخيص الفني"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Technical findings and test results..."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__technician_id
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_search
+msgid "Technician"
+msgstr "الفني"
+
+#. module: repair_center_core
+#: model:ir.model.constraint,message:repair_center_core.constraint_repair_center_branch_code_company_unique
+msgid "The branch code must be unique per company."
+msgstr ""
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "The paid amount cannot be negative."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.constraint,message:repair_center_core.constraint_repair_center_service_code_company_unique
+msgid "The service code must be unique per company."
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_company_form_repair_branding
+msgid ""
+"These values appear in the BASSAM JARI Service Hub dashboard and customer-"
+"facing documents."
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_dashboard_form
+msgid ""
+"This dashboard is your command center. Open any metric to see the matching "
+"repair orders."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__total_customers
+msgid "Total Customers"
+msgstr "إجمالي العملاء"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__total_devices
+msgid "Total Devices"
+msgstr "إجمالي الأجهزة"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__total_orders
+msgid "Total Orders"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.actions.act_window,help:repair_center_core.action_repair_center_order
+msgid ""
+"Track the device, quotation, technician, repair progress, payment, warranty,"
+" and customer delivery."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__service_type
+msgid "Type"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_device__activity_exception_decoration
+#: model:ir.model.fields,help:repair_center_core.field_repair_center_order__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order_line__unit_price
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: repair_center_core
+#: model:ir.model.fields.selection,name:repair_center_core.selection__repair_center_order__priority__3
+msgid "Urgent"
+msgstr "عاجل"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_dashboard__usd_currency_id
+msgid "Usd Currency"
+msgstr ""
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__warranty_days
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_service__warranty_days
+msgid "Warranty Days"
+msgstr "أيام الضمان"
+
+#. module: repair_center_core
+#: model:ir.model.fields,field_description:repair_center_core.field_repair_center_order__warranty_expiry
+msgid "Warranty Expiry"
+msgstr "انتهاء الضمان"
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Warranty and Delivery"
+msgstr "الضمان والتسليم"
+
+#. module: repair_center_core
+#. odoo-python
+#: code:addons/repair_center_core/models/repair_order.py:0
+msgid "Warranty days cannot be negative."
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_order_form
+msgid "Work performed and final test results..."
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_device_form
+msgid "e.g. Bassam's iPhone"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_branch_form
+msgid "e.g. Damascus Main Branch"
+msgstr ""
+
+#. module: repair_center_core
+#: model_terms:ir.ui.view,arch_db:repair_center_core.view_repair_center_service_form
+msgid "e.g. Screen Replacement"
+msgstr ""

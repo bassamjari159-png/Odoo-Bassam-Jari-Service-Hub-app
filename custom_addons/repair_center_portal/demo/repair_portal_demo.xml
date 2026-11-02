@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="repair_order_demo_portal_customer" model="repair.center.order">
+        <field name="customer_id" ref="base.partner_demo_portal"/>
+        <field name="device_name">Customer Demo Phone</field>
+        <field name="device_serial">PORTAL-DEMO-001</field>
+        <field name="issue_description">Battery drains quickly and the device becomes warm.</field>
+        <field name="priority">2</field>
+        <field name="state">diagnosis</field>
+    </record>
+</odoo>

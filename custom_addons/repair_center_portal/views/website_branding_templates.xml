@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="footer_contact_bassam_jari" inherit_id="website.footer_custom" name="BASSAM JARI Footer Contact">
+        <xpath expr="//a[@href='mailto:info@yourcompany.example.com']" position="replace">
+            <a t-att-href="'mailto:%s' % (website.company_id.email or 'admin@example.com')">
+                <t t-out="website.company_id.email or 'admin@example.com'"/>
+            </a>
+        </xpath>
+        <xpath expr="//a[@href='tel:+1 555-555-5556']" position="replace">
+            <a t-att-href="'tel:%s' % (website.company_id.phone or '')">
+                <span class="o_force_ltr" t-out="website.company_id.phone or ''"/>
+            </a>
+        </xpath>
+    </template>
+
+    <template id="footer_copyright_bassam_jari" inherit_id="website.footer_copyright_company_name" name="BASSAM JARI Copyright">
+        <xpath expr="//span[hasclass('o_footer_copyright_name')]" position="replace">
+            <span class="o_footer_copyright_name me-2 small">
+                Copyright © <t t-out="website.company_id.name"/>
+            </span>
+        </xpath>
+    </template>
+</odoo>

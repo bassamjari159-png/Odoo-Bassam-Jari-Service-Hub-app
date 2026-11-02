@@ -1,0 +1,9 @@
+Docker Desktop Installer.exe
+.docker-cli/
+.env
+.vscode/
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.coverage

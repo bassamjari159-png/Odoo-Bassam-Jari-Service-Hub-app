@@ -1,0 +1,501 @@
+# Translation of BASSAM JARI Service Hub.
+# This file contains the translation of the following modules:
+#  * repair_center_core
+#. module: repair_center_core
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+
+#. module: repair_center_core
+msgid "BASSAM JARI Service Hub"
+msgstr "مركز خدمات BASSAM JARI"
+
+#. module: repair_center_core
+msgid "Engineer BASSAM JARI"
+msgstr "المهندس BASSAM JARI"
+
+#. module: repair_center_core
+msgid "Smart service. Trusted results."
+msgstr "خدمة ذكية، ونتائج موثوقة."
+
+#. module: repair_center_core
+msgid "Dashboard"
+msgstr "لوحة القيادة"
+
+#. module: repair_center_core
+msgid "Company Dashboard"
+msgstr "لوحة قيادة الشركة"
+
+#. module: repair_center_core
+msgid "Company Overview"
+msgstr "نظرة عامة على الشركة"
+
+#. module: repair_center_core
+msgid "Operations"
+msgstr "العمليات"
+
+#. module: repair_center_core
+msgid "Repair Orders"
+msgstr "طلبات الصيانة"
+
+#. module: repair_center_core
+msgid "Repair Order"
+msgstr "طلب صيانة"
+
+#. module: repair_center_core
+msgid "Customer Devices"
+msgstr "أجهزة العملاء"
+
+#. module: repair_center_core
+msgid "Customer Device"
+msgstr "جهاز العميل"
+
+#. module: repair_center_core
+msgid "Customers"
+msgstr "العملاء"
+
+#. module: repair_center_core
+msgid "Catalog"
+msgstr "الكتالوج"
+
+#. module: repair_center_core
+msgid "Service Catalog"
+msgstr "كتالوج الخدمات"
+
+#. module: repair_center_core
+msgid "Services and Parts"
+msgstr "الخدمات وقطع الغيار"
+
+#. module: repair_center_core
+msgid "Configuration"
+msgstr "الإعدادات"
+
+#. module: repair_center_core
+msgid "Branches"
+msgstr "الفروع"
+
+#. module: repair_center_core
+msgid "Service Branches"
+msgstr "فروع الخدمة"
+
+#. module: repair_center_core
+msgid "Service Branch"
+msgstr "فرع الخدمة"
+
+#. module: repair_center_core
+msgid "Company Profile"
+msgstr "ملف الشركة"
+
+#. module: repair_center_core
+msgid "Service Hub Identity"
+msgstr "هوية مركز الخدمة"
+
+#. module: repair_center_core
+msgid "Brand Identity"
+msgstr "الهوية التجارية"
+
+#. module: repair_center_core
+msgid "Customer Support"
+msgstr "دعم العملاء"
+
+#. module: repair_center_core
+msgid "Service Brand"
+msgstr "العلامة التجارية للخدمة"
+
+#. module: repair_center_core
+msgid "Founder / General Manager"
+msgstr "المؤسس / المدير العام"
+
+#. module: repair_center_core
+msgid "Service Tagline"
+msgstr "الشعار التعريفي"
+
+#. module: repair_center_core
+msgid "Support Phone"
+msgstr "هاتف الدعم"
+
+#. module: repair_center_core
+msgid "Support Email"
+msgstr "بريد الدعم"
+
+#. module: repair_center_core
+msgid "All Repair Orders"
+msgstr "جميع طلبات الصيانة"
+
+#. module: repair_center_core
+msgid "Active Repairs"
+msgstr "الصيانات النشطة"
+
+#. module: repair_center_core
+msgid "Ready for Delivery"
+msgstr "جاهز للتسليم"
+
+#. module: repair_center_core
+msgid "Delivered"
+msgstr "تم التسليم"
+
+#. module: repair_center_core
+msgid "Company Intelligence"
+msgstr "مؤشرات الشركة"
+
+#. module: repair_center_core
+msgid "Total Customers"
+msgstr "إجمالي العملاء"
+
+#. module: repair_center_core
+msgid "Total Devices"
+msgstr "إجمالي الأجهزة"
+
+#. module: repair_center_core
+msgid "Total Revenue"
+msgstr "إجمالي الإيرادات"
+
+#. module: repair_center_core
+msgid "Outstanding Amount"
+msgstr "المبالغ المستحقة"
+
+#. module: repair_center_core
+msgid "Reference"
+msgstr "المرجع"
+
+#. module: repair_center_core
+msgid "Customer"
+msgstr "العميل"
+
+#. module: repair_center_core
+msgid "Customer Phone"
+msgstr "هاتف العميل"
+
+#. module: repair_center_core
+msgid "Customer Email"
+msgstr "بريد العميل"
+
+#. module: repair_center_core
+msgid "Registered Device"
+msgstr "الجهاز المسجل"
+
+#. module: repair_center_core
+msgid "Device"
+msgstr "الجهاز"
+
+#. module: repair_center_core
+msgid "Device Name"
+msgstr "اسم الجهاز"
+
+#. module: repair_center_core
+msgid "Device Type"
+msgstr "نوع الجهاز"
+
+#. module: repair_center_core
+msgid "Serial Number"
+msgstr "الرقم التسلسلي"
+
+#. module: repair_center_core
+msgid "Brand"
+msgstr "العلامة التجارية"
+
+#. module: repair_center_core
+msgid "Model"
+msgstr "الطراز"
+
+#. module: repair_center_core
+msgid "Color"
+msgstr "اللون"
+
+#. module: repair_center_core
+msgid "Purchase Date"
+msgstr "تاريخ الشراء"
+
+#. module: repair_center_core
+msgid "Device Notes"
+msgstr "ملاحظات الجهاز"
+
+#. module: repair_center_core
+msgid "Reported Issue"
+msgstr "العطل المبلغ عنه"
+
+#. module: repair_center_core
+msgid "Received Accessories"
+msgstr "الملحقات المستلمة"
+
+#. module: repair_center_core
+msgid "Device Condition at Reception"
+msgstr "حالة الجهاز عند الاستلام"
+
+#. module: repair_center_core
+msgid "Technical Diagnosis"
+msgstr "التشخيص الفني"
+
+#. module: repair_center_core
+msgid "Repair Resolution"
+msgstr "إجراء الإصلاح"
+
+#. module: repair_center_core
+msgid "Technician"
+msgstr "الفني"
+
+#. module: repair_center_core
+msgid "Branch"
+msgstr "الفرع"
+
+#. module: repair_center_core
+msgid "Branch Name"
+msgstr "اسم الفرع"
+
+#. module: repair_center_core
+msgid "Branch Code"
+msgstr "رمز الفرع"
+
+#. module: repair_center_core
+msgid "Branch Manager"
+msgstr "مدير الفرع"
+
+#. module: repair_center_core
+msgid "Received On"
+msgstr "تاريخ الاستلام"
+
+#. module: repair_center_core
+msgid "Expected Completion"
+msgstr "موعد الإنجاز المتوقع"
+
+#. module: repair_center_core
+msgid "Completed On"
+msgstr "تاريخ الإنجاز"
+
+#. module: repair_center_core
+msgid "Delivered On"
+msgstr "تاريخ التسليم"
+
+#. module: repair_center_core
+msgid "Priority"
+msgstr "الأولوية"
+
+#. module: repair_center_core
+msgid "Status"
+msgstr "الحالة"
+
+#. module: repair_center_core
+msgid "New"
+msgstr "جديد"
+
+#. module: repair_center_core
+msgid "Diagnosis"
+msgstr "قيد التشخيص"
+
+#. module: repair_center_core
+msgid "Approved"
+msgstr "تمت الموافقة"
+
+#. module: repair_center_core
+msgid "In Progress"
+msgstr "قيد الإصلاح"
+
+#. module: repair_center_core
+msgid "Cancelled"
+msgstr "ملغي"
+
+#. module: repair_center_core
+msgid "Normal"
+msgstr "عادي"
+
+#. module: repair_center_core
+msgid "Low"
+msgstr "منخفض"
+
+#. module: repair_center_core
+msgid "High"
+msgstr "مرتفع"
+
+#. module: repair_center_core
+msgid "Urgent"
+msgstr "عاجل"
+
+#. module: repair_center_core
+msgid "Start Diagnosis"
+msgstr "بدء التشخيص"
+
+#. module: repair_center_core
+msgid "Approve Quotation"
+msgstr "الموافقة على عرض السعر"
+
+#. module: repair_center_core
+msgid "Start Repair"
+msgstr "بدء الإصلاح"
+
+#. module: repair_center_core
+msgid "Mark Ready"
+msgstr "تعيين كجاهز"
+
+#. module: repair_center_core
+msgid "Deliver to Customer"
+msgstr "تسليم إلى العميل"
+
+#. module: repair_center_core
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: repair_center_core
+msgid "Reset to New"
+msgstr "إعادة إلى جديد"
+
+#. module: repair_center_core
+msgid "Customer and Device"
+msgstr "العميل والجهاز"
+
+#. module: repair_center_core
+msgid "Assignment and Timing"
+msgstr "التعيين والمواعيد"
+
+#. module: repair_center_core
+msgid "Reception"
+msgstr "الاستقبال"
+
+#. module: repair_center_core
+msgid "Diagnosis and Resolution"
+msgstr "التشخيص والحل"
+
+#. module: repair_center_core
+msgid "Warranty and Delivery"
+msgstr "الضمان والتسليم"
+
+#. module: repair_center_core
+msgid "Internal Notes"
+msgstr "ملاحظات داخلية"
+
+#. module: repair_center_core
+msgid "Quotation Total"
+msgstr "إجمالي عرض السعر"
+
+#. module: repair_center_core
+msgid "Amount Paid"
+msgstr "المبلغ المدفوع"
+
+#. module: repair_center_core
+msgid "Amount Due"
+msgstr "المبلغ المتبقي"
+
+#. module: repair_center_core
+msgid "Warranty Days"
+msgstr "أيام الضمان"
+
+#. module: repair_center_core
+msgid "Warranty Expiry"
+msgstr "انتهاء الضمان"
+
+#. module: repair_center_core
+msgid "Service Name"
+msgstr "اسم الخدمة"
+
+#. module: repair_center_core
+msgid "Service Code"
+msgstr "رمز الخدمة"
+
+#. module: repair_center_core
+msgid "Sales Price"
+msgstr "سعر البيع"
+
+#. module: repair_center_core
+msgid "Internal Cost"
+msgstr "التكلفة الداخلية"
+
+#. module: repair_center_core
+msgid "Expected Hours"
+msgstr "الساعات المتوقعة"
+
+#. module: repair_center_core
+msgid "Line Type"
+msgstr "نوع البند"
+
+#. module: repair_center_core
+msgid "Service"
+msgstr "خدمة"
+
+#. module: repair_center_core
+msgid "Spare Part"
+msgstr "قطعة غيار"
+
+#. module: repair_center_core
+msgid "Catalog Item"
+msgstr "بند الكتالوج"
+
+#. module: repair_center_core
+msgid "Description"
+msgstr "الوصف"
+
+#. module: repair_center_core
+msgid "Quantity"
+msgstr "الكمية"
+
+#. module: repair_center_core
+msgid "Unit Price"
+msgstr "سعر الوحدة"
+
+#. module: repair_center_core
+msgid "Discount %"
+msgstr "الخصم %"
+
+#. module: repair_center_core
+msgid "Subtotal"
+msgstr "المجموع الفرعي"
+
+#. module: repair_center_core
+msgid "Phone"
+msgstr "هاتف"
+
+#. module: repair_center_core
+msgid "Tablet"
+msgstr "جهاز لوحي"
+
+#. module: repair_center_core
+msgid "Laptop"
+msgstr "حاسوب محمول"
+
+#. module: repair_center_core
+msgid "Desktop"
+msgstr "حاسوب مكتبي"
+
+#. module: repair_center_core
+msgid "Printer"
+msgstr "طابعة"
+
+#. module: repair_center_core
+msgid "Network Device"
+msgstr "جهاز شبكة"
+
+#. module: repair_center_core
+msgid "Other"
+msgstr "أخرى"
+
+#. module: repair_center_core
+msgid "Currency"
+msgstr "العملة"
+
+#. module: repair_center_core
+msgid "Currency Changed"
+msgstr "تم تغيير العملة"
+
+#. module: repair_center_core
+msgid "Different Currency"
+msgstr "عملة مختلفة"
+
+#. module: repair_center_core
+msgid "Revenue in Syrian Pounds"
+msgstr "الإيرادات بالليرة السورية"
+
+#. module: repair_center_core
+msgid "Outstanding in Syrian Pounds"
+msgstr "المبالغ المتبقية بالليرة السورية"
+
+#. module: repair_center_core
+msgid "Revenue in US Dollars"
+msgstr "الإيرادات بالدولار الأمريكي"
+
+#. module: repair_center_core
+msgid "Outstanding in US Dollars"
+msgstr "المبالغ المتبقية بالدولار الأمريكي"
+

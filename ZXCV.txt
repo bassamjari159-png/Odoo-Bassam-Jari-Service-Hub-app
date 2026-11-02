@@ -1,0 +1,18 @@
+افتح Docker Desktop.
+انتظر حتى تظهر عبارة Engine running.
+افتح PowerShell.
+
+cd "D:\github 2\Odoo developer"
+docker compose up -d
+
+
+http://localhost:8069
+http://localhost:8069/odoo/action-90
+
+
+cd "D:\github 2\Odoo developer"
+docker compose stop
+
+
+ولمعرفة هل يعمل:
+docker compose ps
