@@ -8,6 +8,7 @@ docker compose up -d
 
 http://localhost:8069
 http://localhost:8069/odoo/action-90
+http://localhost:8069/my/repairs
 
 
 cd "D:\github 2\Odoo developer"
